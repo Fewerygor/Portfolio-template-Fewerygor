@@ -1,0 +1,19 @@
+:root {
+   --color-white: #FFFFFF;
+   --color-purple: #6880FF;
+   --color-purple2: #7B61FF;
+   --color-purpleHover: #7C91FF;
+   --background-purple: #6880FF;
+   --background-purpleHover: #7C91FF;
+   --font-weight-1: 400;
+   --font-weight-2: 800;
+   --font-weight-3: 600;
+   --width: 95%;
+   --max-width: 898.7px;
+   --between: space-between;
+}
+
+body {
+   background-color: black; 
+   color: var(--color-white);
+}

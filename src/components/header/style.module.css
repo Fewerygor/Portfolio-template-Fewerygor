@@ -1,0 +1,43 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: var(--between);
+    align-items: center;
+    width: var(--width);
+    
+    padding: 10px 0 60px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: var(--between);
+    width: 30%;
+}
+
+.paragraph a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.button {
+    border-radius: 12px;
+    border: 1px;
+    width: 114px;
+    height: 39px;
+    font-weight: 600;
+    background-color: var(--background-purple);
+    color: var(--color-white);
+}
+
+.button:hover {
+    background-color: var(--background-purpleHover);
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    width: var(--width);
+    max-width: var(--max-width);
+    height: 90%; 
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainer span a{
+    display: flex;
+    gap: 10px;
+}
+
+.imgContainer img {
+    width: 18px;
+    height: 17.95px;
+    color: var(--color-purple);
+}

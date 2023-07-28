@@ -1,0 +1,25 @@
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    
+    height: 180px;
+}
+
+.aboutMeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: var(--width);
+    max-width: var(--max-width);
+}
+
+.h2 {
+    margin: 0;
+    width: 250px;
+    font-size: 30px;
+}
+
+.paragraph {
+    width: 530px;
+    font-size: 16px;
+}

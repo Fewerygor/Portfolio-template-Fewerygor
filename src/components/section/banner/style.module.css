@@ -1,0 +1,51 @@
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.bannerContainer {
+    display: flex;
+    justify-content: var(--between);
+    width: var(--width);
+    max-width: var(--max-width);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text span {
+    color: var(--color-purple);
+    font-size: 15px;
+}
+
+.text h1 {
+    font-size: 48px;
+    width: 320px;
+    margin: 10px 0 3px;
+    
+}
+
+.text p {
+    display: flex;
+    align-items: start;
+    padding: 50px 0;
+}
+
+.button {
+    border: 1px;
+    border-radius: 12px;
+    width: 130px;
+    height: 39px;
+    font-weight: var(--font-weight-3);
+    background-color: var(--background-purple);
+    color: var(--color-white);
+}
+
+.button:hover {
+    background-color: var(--background-purpleHover);
+    cursor: pointer;
+}
